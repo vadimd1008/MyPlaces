@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "BAO Modern Chinese Cuisine.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "BAO Modern Chinese Cuisine@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "BAO Modern Chinese Cuisine@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
