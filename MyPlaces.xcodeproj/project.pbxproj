@@ -18,6 +18,7 @@
 		DA481C742500E6F80078684E /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481C732500E6F80078684E /* PlaceModel.swift */; };
 		DA481C762502378F0078684E /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481C752502378F0078684E /* NewPlaceViewController.swift */; };
 		DA481C78250926710078684E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481C77250926710078684E /* StorageManager.swift */; };
+		DA4B1B792521E78800F14270 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B1B782521E78800F14270 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		DA481C732500E6F80078684E /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		DA481C752502378F0078684E /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		DA481C77250926710078684E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		DA4B1B782521E78800F14270 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				DA481C77250926710078684E /* StorageManager.swift */,
 				DA481C7124F944490078684E /* CustomTableViewCell.swift */,
 				DA481C752502378F0078684E /* NewPlaceViewController.swift */,
+				DA4B1B782521E78800F14270 /* RatingControl.swift */,
 				DA481C6124EBC6DE0078684E /* Main.storyboard */,
 				DA481C6424EBC6E00078684E /* Assets.xcassets */,
 				DA481C6624EBC6E00078684E /* LaunchScreen.storyboard */,
@@ -222,6 +225,7 @@
 				DA481C762502378F0078684E /* NewPlaceViewController.swift in Sources */,
 				DA481C5E24EBC6DE0078684E /* SceneDelegate.swift in Sources */,
 				DA481C78250926710078684E /* StorageManager.swift in Sources */,
+				DA4B1B792521E78800F14270 /* RatingControl.swift in Sources */,
 				DA481C742500E6F80078684E /* PlaceModel.swift in Sources */,
 				DA481C7224F944490078684E /* CustomTableViewCell.swift in Sources */,
 				DA481C7024EBC9970078684E /* TableViewController.swift in Sources */,
