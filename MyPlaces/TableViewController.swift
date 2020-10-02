@@ -49,7 +49,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
             return filteredPlaces.count
         }
         
-        return places.isEmpty ? 0 : places.count
+        return places.count
     }
 
     
@@ -67,6 +67,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         cell.locationLabel.text = place.location
         cell.typeLabel.text = place.type
         cell.imageOfPlace.image = UIImage(data: place.imageData!)
+        cell.cosmosView.rating = place.rating
        
   //     cell.imageOfPlace.layer.cornerRadius = cell.imageOfPlace.frame.size.height / 2
         cell.imageOfPlace.clipsToBounds = true
