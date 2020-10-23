@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33F0A21D884D8B28EF6651B5 /* Pods_MyPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948DED8244411D561DA78CFB /* Pods_MyPlaces.framework */; };
+		DA45716C252B33270019002F /* Pods_MyPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948DED8244411D561DA78CFB /* Pods_MyPlaces.framework */; };
 		DA481C5C24EBC6DE0078684E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481C5B24EBC6DE0078684E /* AppDelegate.swift */; };
 		DA481C5E24EBC6DE0078684E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481C5D24EBC6DE0078684E /* SceneDelegate.swift */; };
 		DA481C6324EBC6DE0078684E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA481C6124EBC6DE0078684E /* Main.storyboard */; };
@@ -19,12 +19,20 @@
 		DA481C762502378F0078684E /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481C752502378F0078684E /* NewPlaceViewController.swift */; };
 		DA481C78250926710078684E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481C77250926710078684E /* StorageManager.swift */; };
 		DA4B1B792521E78800F14270 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B1B782521E78800F14270 /* RatingControl.swift */; };
+		DA4F43072541A29F008DED5A /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F43062541A29F008DED5A /* MapManager.swift */; };
+		DA5C9A17252C5C620025D29D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C9A16252C5C620025D29D /* MapViewController.swift */; };
+		DAE81B9F253584D70098AFFB /* Cosmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2FA36E252C5306003BCA33 /* Cosmos.framework */; };
+		DAE81BA0253584DF0098AFFB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2FA372252C530F003BCA33 /* Realm.framework */; };
+		DAE81BA1253584E40098AFFB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2FA375252C5315003BCA33 /* RealmSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4510A5BF63AA366B069659B8 /* Pods-MyPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaces.release.xcconfig"; path = "Target Support Files/Pods-MyPlaces/Pods-MyPlaces.release.xcconfig"; sourceTree = "<group>"; };
 		948DED8244411D561DA78CFB /* Pods_MyPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE521579CA9BF4CFC7E251A /* Pods-MyPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaces.debug.xcconfig"; path = "Target Support Files/Pods-MyPlaces/Pods-MyPlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2FA36E252C5306003BCA33 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2FA372252C530F003BCA33 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2FA375252C5315003BCA33 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA481C5824EBC6DE0078684E /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA481C5B24EBC6DE0078684E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA481C5D24EBC6DE0078684E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		DA481C752502378F0078684E /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		DA481C77250926710078684E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		DA4B1B782521E78800F14270 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		DA4F43062541A29F008DED5A /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		DA5C9A16252C5C620025D29D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33F0A21D884D8B28EF6651B5 /* Pods_MyPlaces.framework in Frameworks */,
+				DAE81BA0253584DF0098AFFB /* Realm.framework in Frameworks */,
+				DAE81B9F253584D70098AFFB /* Cosmos.framework in Frameworks */,
+				DAE81BA1253584E40098AFFB /* RealmSwift.framework in Frameworks */,
+				DA45716C252B33270019002F /* Pods_MyPlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +103,8 @@
 				DA481C7124F944490078684E /* CustomTableViewCell.swift */,
 				DA481C752502378F0078684E /* NewPlaceViewController.swift */,
 				DA4B1B782521E78800F14270 /* RatingControl.swift */,
+				DA5C9A16252C5C620025D29D /* MapViewController.swift */,
+				DA4F43062541A29F008DED5A /* MapManager.swift */,
 				DA481C6124EBC6DE0078684E /* Main.storyboard */,
 				DA481C6424EBC6E00078684E /* Assets.xcassets */,
 				DA481C6624EBC6E00078684E /* LaunchScreen.storyboard */,
@@ -101,6 +116,9 @@
 		F56A7B88ACF559C54E6C3393 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA2FA375252C5315003BCA33 /* RealmSwift.framework */,
+				DA2FA372252C530F003BCA33 /* Realm.framework */,
+				DA2FA36E252C5306003BCA33 /* Cosmos.framework */,
 				948DED8244411D561DA78CFB /* Pods_MyPlaces.framework */,
 			);
 			name = Frameworks;
@@ -135,7 +153,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Vadim Dmitriev";
 				TargetAttributes = {
 					DA481C5724EBC6DE0078684E = {
@@ -225,7 +243,9 @@
 				DA481C762502378F0078684E /* NewPlaceViewController.swift in Sources */,
 				DA481C5E24EBC6DE0078684E /* SceneDelegate.swift in Sources */,
 				DA481C78250926710078684E /* StorageManager.swift in Sources */,
+				DA5C9A17252C5C620025D29D /* MapViewController.swift in Sources */,
 				DA4B1B792521E78800F14270 /* RatingControl.swift in Sources */,
+				DA4F43072541A29F008DED5A /* MapManager.swift in Sources */,
 				DA481C742500E6F80078684E /* PlaceModel.swift in Sources */,
 				DA481C7224F944490078684E /* CustomTableViewCell.swift in Sources */,
 				DA481C7024EBC9970078684E /* TableViewController.swift in Sources */,
@@ -280,6 +300,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -340,6 +361,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -376,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3M6Y5HY27;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,6 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3M6Y5HY27;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
